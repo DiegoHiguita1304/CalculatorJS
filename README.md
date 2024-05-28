@@ -42,9 +42,9 @@ Calcula el área y el perímetro de la figura seleccionada y muestra los resulta
 
 ## Función Contadores (Para realizar un seguimiento del número de veces que se ejecuta cada operación)
 
-1. Se define variables contadoras para cada operación dentro de las funciones de calculadora.
-2. Incrementa el contador correspondiente cada vez que se llama a la función de calculadora específica.
-3. Al final de la aplicación, muestra el recuento de cada operación.
+* Se define variables contadoras para cada operación dentro de las funciones de calculadora.
+* Incrementa el contador correspondiente cada vez que se llama a la función de calculadora específica.
+* Al final de la aplicación, muestra el recuento de cada operación.
 
 ## Clonación (Repositorio github)
 
@@ -55,3 +55,8 @@ Calcula el área y el perímetro de la figura seleccionada y muestra los resulta
 *  git init
 *  git clone https://github.com/DiegoHiguita1304/CalculatorJS.git.
 5. Abre el archivo (index.html) en tu navegador web.
+
+  ## Contribuciones
+Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, puedes hacerlo a través de pull requests. Asegúrate de seguir las pautas de contribución.
+
+Autor Nombre: Diego Higuita
