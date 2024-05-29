@@ -67,32 +67,43 @@ function simpleCalculator() {
 }
 
 function scientificCalculator() {
-    const operation = promptUser("Seleccione la operación:\n1. Seno\n2. Coseno\n3. Tangente\n4. Logaritmo\n5. Operaciones simples");
+    const operation = prompt("Seleccione la operación:\n1. Seno\n2. Coseno\n3. Tangente\n4. Logaritmo\n5. Potenciación\n6. Radicación\n7. Operaciones simples");
 
-    if (operation === '5') {
+    if (operation === '7') {
         simpleCalculator();
         return;
     }
 
-    const num = parseFloat(promptUser("Ingrese el número: "));
+    const num = parseFloat(prompt("Ingrese el número: "));
 
     let result;
     switch (operation) {
         case '1':
-            result = Math.sin(num);
+            result = Math.sin(toRadians(num));
             break;
         case '2':
-            result = Math.cos(num);
+            result = Math.cos(toRadians(num));
             break;
         case '3':
-            result = Math.tan(num);
+            result = Math.tan(toRadians(num));
             break;
         case '4':
             result = Math.log(num);
             break;
+        case '5':
+            const exponent = parseFloat(prompt("Ingrese el exponente: "));
+            result = Math.pow(num, exponent);
+            break;
+        case '6':
+            result = Math.sqrt(num);
+            break;
         default:
             console.log("Operación no válida.");
             return;
+    }
+
+    function toRadians(degrees) {
+        return degrees * (Math.PI / 180);
     }
 
     console.log(`Resultado: ${result}`);
