@@ -31,8 +31,8 @@ Solicita al usuario dos números y un operador (+, -, *, /).
 Realiza la operación matemática correspondiente y muestra el resultado en consola.
 
 * ScientificCalculator:
- Solicita al usuario un número y una operación (Seno, Coseno, Tangente, Logaritmo ó Operaciones simples).
-Para operaciones científicas, utiliza las funciones matemáticas de JavaScript (Math.sin, Math.cos, Math.tan, Math.log).
+ Solicita al usuario un número y una operación (Seno, Coseno, Tangente, Logaritmo, potenciación, radicación ó Operaciones simples).
+Para operaciones científicas, utiliza las funciones matemáticas de JavaScript (Math.sin, Math.cos, Math.tan, Math.log, Math.pow, Math.sqrt).
  Si elige Operaciones simples, llama a simpleCalculator() para realizar operaciones básicas.
 
 * SpecialCalculator:
